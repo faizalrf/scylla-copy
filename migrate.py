@@ -1,12 +1,10 @@
 from cassandra import cluster as scylla_cluster
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.concurrent import execute_concurrent_with_args
-from cassandra.metadata import Murmur3Token
-import concurrent.futures
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
-import threading
 from dotenv import load_dotenv
+import concurrent.futures
+import threading
 import os
 
 # Load environment variables from the .env file
