@@ -27,20 +27,20 @@ Remember which folder you created the virtual environment in, every time we log 
 
 ## Configuration
 
-Edit the `.env` file and define the following variables 
+create a `.env` file based on the `.env_sample` and define the following variables according to your setup
 
 ```
 # Source Cluster Configuration
-SOURCE_CONTACT_POINTS=SOURCE-IP1, SOURCE-IP2, ...
-SOURCE_PORT=
-SOURCE_USERNAME=source_username
-SOURCE_PASSWORD=source_password
+SOURCE_CONTACT_POINTS=<SOURCE-IP1, SOURCE-IP2, ...>
+SOURCE_PORT=<source-port>
+SOURCE_USERNAME=<source_username>
+SOURCE_PASSWORD=<source_password>
 
 # Target Cluster Configuration
-TARGET_CONTACT_POINTS=SOURCE-IP1, SOURCE-IP2, ...
-TARGET_PORT=
-TARGET_USERNAME=target_username
-TARGET_PASSWORD=target_password
+TARGET_CONTACT_POINTS=<SOURCE-IP1, SOURCE-IP2, ...>
+TARGET_PORT=<target_port>
+TARGET_USERNAME=<target_username>
+TARGET_PASSWORD=<target_password>
 
 # Migration Settings
 BATCH_SIZE=500
