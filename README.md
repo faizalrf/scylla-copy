@@ -12,7 +12,7 @@ This code is designed to run on a dedicated machine with at least 8 vCPU availab
 
 ### Python & pip
 
-Python and pip should be available on the machine where this code is going to execute. Create a python virtual environment using the following 
+Ensure that `python` and `pip` are installed and available on the machine where this code is going to execute. Create a python virtual environment using the following 
 
 ```
 python -m venv venv
